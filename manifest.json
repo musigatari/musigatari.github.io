@@ -1,0 +1,18 @@
+{
+  "name": "Musigatari",
+  "short_name": "Musigatari",
+  "description": "Aprendiendo canciones",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1a1e",
+  "theme_color": "#FF9201",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "config/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

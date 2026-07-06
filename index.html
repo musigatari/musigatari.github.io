@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Acordes — Editor de Canciones</title>
+<title>Musigatari — Aprendiendo Canciones</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#FF9201">
 <meta name="ext-resource-dependency" content="config/icon.svg">
 <meta name="ext-resource-dependency" content="config/qr.svg">
 <meta name="ext-resource-dependency" content="config/explicacion.html">
@@ -2056,6 +2058,13 @@ window.ReactDOM.createRoot(document.getElementById('root')).render(<App />);
       if (window.Babel) run();
       else window.addEventListener('load', run);
     })();
+  </script>
+  <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
   </script>
 </body>
 </html>
