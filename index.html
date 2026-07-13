@@ -825,7 +825,7 @@ function NoteFigure({ type, scale = 1 }) {
   const hasStem = type !== 'whole';
   const flags = type === 'eighth' ? 1 : type === 'sixteenth' ? 2 : 0;
   return (
-    <svg viewBox="0 0 24 34" height={size} width={size * 0.72}
+    <svg viewBox={type === 'whole' ? '0 15 24 21' : '0 0 24 34'} height={size} width={size * (type === 'whole' ? 1 : 0.72)}
          className={'notefig notefig-' + type}
          style={{ display: 'block', overflow: 'visible' }} aria-hidden="true">
       <ellipse cx="8" cy="25.5" rx="6.1" ry="4.4" transform="rotate(-22 8 25.5)"
