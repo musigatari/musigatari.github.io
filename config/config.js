@@ -14,7 +14,7 @@ window.APP_CONFIG = {
 
   /* ---- SUBTÍTULO ----
      Texto pequeño debajo del nombre. */
-  subtitle: 'Interpretando canciones',
+  subtitle: 'Aprendiendo canciones',
 
   /* ---- NOMBRE COMO IMAGEN SVG (OPCIONAL) ----
      Si quieres usar un logotipo SVG en lugar del texto del
@@ -62,7 +62,7 @@ window.APP_CONFIG = {
                  (1 = igual que el resto). */
   notes: {
     base: 22,
-    wholeScale: 1.3,
+    wholeScale: 1.5,
     halfScale: 1,
   },
 
@@ -73,7 +73,7 @@ window.APP_CONFIG = {
      se ve el texto de los acordes (C, Am, G7…) respecto a ese base,
      para que resalte un poco más que el resto.
      Ponlo en 0 para que se vea igual que el resto. */
-  chordSizeOffsetPx: 2,
+  chordSizeOffsetPx: 3,
 
   /* ---- SONIDOS DEL METRÓNOMO (OPCIONAL) ----
      Si quieres reemplazar el «bip» del metrónomo por archivos
