@@ -62,7 +62,7 @@ window.APP_CONFIG = {
                  (1 = igual que el resto). */
   notes: {
     base: 22,
-    wholeScale: 1.5,
+    wholeScale: 1.3,
     halfScale: 1,
   },
 
@@ -73,7 +73,7 @@ window.APP_CONFIG = {
      se ve el texto de los acordes (C, Am, G7…) respecto a ese base,
      para que resalte un poco más que el resto.
      Ponlo en 0 para que se vea igual que el resto. */
-  chordSizeOffsetPx: 3,
+  chordSizeOffsetPx: 2,
 
   /* ---- SONIDOS DEL METRÓNOMO (OPCIONAL) ----
      Si quieres reemplazar el «bip» del metrónomo por archivos
