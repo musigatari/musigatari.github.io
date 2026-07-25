@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Musigatari</title>
+<title>Musigatari — Aprendiendo Canciones</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#FF9201">
@@ -389,7 +389,7 @@
   }
   .meta-btn {
     background: var(--s1); border: 1px solid var(--s3); border-left: 3px solid var(--accent);
-    color: var(--text); font-family: var(--font-mono); font-size: 11px; letter-spacing: 1.5px;
+    color: var(--text); font-family: var(--font-mono); font-size: calc(11px * var(--sec-scale, 1)); letter-spacing: 1.5px;
     padding: 8px 12px; text-transform: uppercase; box-shadow: var(--btn-shadow);
     display: inline-flex; align-items: center; gap: 8px;
   }
@@ -436,7 +436,7 @@
   /* song blocks */
   .song-block { margin-bottom: 30px; min-width: 0; }
   .block-h {
-    font-family: var(--font-mono); font-size: 11px; color: var(--teal);
+    font-family: var(--font-mono); font-size: calc(11px * var(--sec-scale, 1)); color: var(--teal);
     letter-spacing: 3px; text-transform: uppercase;
     border-bottom: 1px solid var(--s3); padding-bottom: 7px; margin-bottom: 16px;
   }
