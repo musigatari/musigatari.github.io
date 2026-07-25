@@ -14,7 +14,7 @@ window.APP_CONFIG = {
 
   /* ---- SUBTÍTULO ----
      Texto pequeño debajo del nombre. */
-  subtitle: 'Interpretando canciones',
+  subtitle: 'Aprendiendo canciones',
 
   /* ---- NOMBRE COMO IMAGEN SVG (OPCIONAL) ----
      Si quieres usar un logotipo SVG en lugar del texto del
